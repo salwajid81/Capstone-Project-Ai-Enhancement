@@ -1,8 +1,46 @@
-.logo{
-    width: 70px;
+body{
+    background-color:#aea18b;
 }
 
-nav{
+.logo{
+    margin-left:8.5px;
+    border: 2px dotted #112D32;
+    border-radius:10px;
+    width: 60px;
+    height: 60px;
+    background-color:#4F4A41;
+}
+.navBar{
+    margin-left:15px;
+    background-color: #112D32;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    width:50px;
+    height:500px;
+    border-radius:50px;
+    box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.2);
+}
 
+.buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+}
+
+.buttons a{
+    color: white; 
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 5px; 
     
+}
+.buttons a:hover{
+    color:red;
 }
