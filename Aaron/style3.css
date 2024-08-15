@@ -1,84 +1,149 @@
 body {
-    background-color: #78695ecd;
-    font-family: Arial, sans-serif;
-    color: #ffffff;
+    background-color: #aea18b;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.logo {
+    margin-left: 8.5px;
+    border: 2px dotted #112D32;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: #4F4A41;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.navbar2 {
+    background-color: #112D32;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    position: relative;
+}
+
+.navBar {
+    margin-left: 15px;
+    background-color: #112D32;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    font-size: 150px;
+}
+
+.buttons a {
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.buttons a:hover {
+    color: #88bdbc;
+}
+
+.title h1 {
     margin: 0;
     padding: 0;
+    line-height: 1; /* Adjusted for tighter spacing */
 }
 
-nav {
+.mainContent {
     display: flex;
-    justify-content: center;
-    padding: 30px;
-    color: #ffffff;
-    -webkit-text-stroke-color: #b6e3e8;
-    -webkit-text-stroke-width: 1px;
-    background-color: rgba(0, 0, 0, 0.7); /* Adjust transparency here */
-}
-
-.items {
-    margin: 0 15px;
-    font-size: 50px;
-    color: #b2dff1;
-    padding: 20px;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.items:hover {
-    color: #09053f;
-}
-
-.greeting, .greeting2 {
-    text-align: left;
-    font-size: 90px;
-    color: #ffffff;
-    -webkit-text-stroke-color: #b6e3e8;
-    -webkit-text-stroke-width: 1px;
-    margin-top: 30px;
-}
-
-p {
-    display: block;
-    margin-top: 40px;
-    text-align: left;
-    font-size: 25px;
-    background-color: #78695ecd;
-}
-
-.section-title {
-    color: #ffffff;
-    font-size: 69px;
-    text-align: center;
-    margin-top: 100px;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #b6e3e8;
-}
-
-#desc {
-    margin-top: 50px;
-    border: 5px solid #ffffff;
+    flex-direction: column;
     border-radius: 20px;
-    color: #ffffff;
-    padding: 20px;
+    padding: 10px; 
+    position: relative;
+    margin: 0 auto; 
+    margin-top: -10px; /* Negative margin to pull it closer to navbar2 */
+    width: calc(100% - 120px);
+    max-width: 1200px;
+    overflow: auto;
+    background-color: rgb(136, 125, 104);
+    text-align: center;
+    justify-content: flex-start;
 }
 
-.container {
+.images {
     display: flex;
-    justify-content: flex-end;
-    padding: 20px;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 100px;
 }
 
-#img1 {
+.me {
     width: 300px;
-    margin-left: auto;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-left: 100px;
 }
 
-.picme {
-    font-size: 90px;
-    color: #ffffff;
-    -webkit-text-stroke-color: #b6e3e8;
-    -webkit-text-stroke-width: 1px;
-    text-align: right;
-    margin-right: 20px;
+.me2{
+    width: 300px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-left: 300px;
+}
+
+.logo2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.buttons:hover {
+    color: #88bdbc;
+}
+
+.buttons2 {
+    font-family: Helvetica;
+    color: #1a1e22;
+    font-size: 25px;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.buttons2 a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.buttons2 a:hover {
+    color: #88bdbc;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }

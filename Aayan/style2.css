@@ -1,0 +1,114 @@
+body{
+    background-color:#aea18b;
+    color: white; 
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    margin-left:8.5px;
+    border: 2px dotted #112D32;
+    border-radius:10px;
+    width: 60px;
+    height: 60px;
+    justify-content: flex-start;
+    background-color:#4F4A41;
+}
+.navBar{
+    margin-left:15px;
+    background-color: #112D32;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    width:50px;
+    height:500px;
+    border-radius:50px;
+    box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+}
+
+.buttons a{
+    color: white; 
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 5px; 
+    
+}
+.buttons a:hover{
+    color:red;
+}
+
+.Title {
+
+text-align: center;
+
+justify-content: center;
+
+}
+
+.description {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    border: solid #112D32 10px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-content: center;
+    margin: 0 200px;
+}
+.MynavBar{
+    margin-left:15px;
+    background-color: #112D32;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 200px;
+    margin-bottom: 100px;
+    border-radius:50px;
+    box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.myButtons{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.myButtons a{
+    color: white; 
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 5px; 
+}
+.myButtons a:hover{
+    color:red;
+}
+
+.navbar-logo img {
+    height: 50px; /* Adjust the height as needed */
+}
+
+
+#descritipndiv {
+display: flex;
+
+
+}
+
+#photomainpage {
+    display: flex;
+    justify-content: space-between;
+}
