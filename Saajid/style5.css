@@ -3,6 +3,7 @@ body{
     color: white; 
     font-size:25px;
     font-family:Arial, Helvetica, sans-serif;
+    overflow:hidden;
 }
 
 .logo{
@@ -11,9 +12,8 @@ body{
     border-radius:10px;
     width: 60px;
     height: 60px;
-    top:70px;
     background-color:#4F4A41;
-    position:fixed;
+    position:sticky;
 }
 
 .navBar{
@@ -23,12 +23,12 @@ body{
     flex-direction:row;
     justify-content:center;
     align-items:center;
+    position:sticky;
     width:50px;
     height:500px;
+    bottom:50px;
     border-radius:50px;
     box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.2);
-    bottom:120px;
-    position: fixed;
 }
 
 .buttons{
@@ -53,19 +53,20 @@ body{
     color: #88bdbc;
 }
 
-.mainContent{
-    display:flex;
-    flex-direction:column;
-    border:double 10px black;
-    border-radius:100px;
-    padding-left:10px;
-    padding-right: 10px;
-    padding-bottom:150px;
-    position:relative;
-    left:80px;
-    bottom:80px;
-    width:1320px;
-    box-sizing: border-box;
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 10px; 
+    position:sticky;
+    margin: 0 auto; 
+    margin-top:0px;
+    width: calc(100% - 120px);
+    max-width: 1200px;
+    overflow: auto;
+    background-color: rgb(136, 125, 104);
+    text-align: center;
+    bottom:50px;
 }
 .images{
     display:flex;
@@ -100,8 +101,8 @@ body{
     flex-direction:row;
     display:flex;
     justify-content:center;
-    margin-left:150px;
-    margin-bottom:100px;
+    margin-left:auto;
+    margin-right:auto;
     width:1000px;
     border-radius:50px;
     padding:15px;
@@ -131,7 +132,7 @@ body{
 }
 .control-button{
     display:inline-block;
-    position:fixed;
+    position:sticky;
     justify-content:space-around;
     flex-direction:row;
     background-color:#112D32;
@@ -142,6 +143,7 @@ body{
     border-radius:100px;
     padding:5px;
     box-shadow: 8px 8px 2px 0.5px rgba(0, 0, 0, 0.2);
+    position:relative;
 }
 .control-button:hover{
     color:#88bdbc;

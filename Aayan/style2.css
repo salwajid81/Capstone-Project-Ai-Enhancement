@@ -5,14 +5,16 @@ body{
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.logo{
-    margin-left:8.5px;
+.logo {
+    margin-left: 8.5px;
     border: 2px dotted #112D32;
-    border-radius:10px;
+    border-radius: 10px;
     width: 60px;
     height: 60px;
-    justify-content: flex-start;
-    background-color:#4F4A41;
+    background-color: #4F4A41;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 .navBar{
     margin-left:15px;
@@ -68,33 +70,45 @@ justify-content: center;
     align-content: center;
     margin: 0 200px;
 }
-.MynavBar{
-    margin-left:15px;
+.logo2{
+    width:100px;
+    height:100px;
+    border-radius:100px;
+}
+
+.navbar2{
     background-color: #112D32;
+    flex-direction:row;
     display:flex;
-    justify-content: center;
-    align-items:center;
-    margin: 0 200px;
-    margin-bottom: 100px;
+    justify-content:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:1000px;
     border-radius:50px;
-    box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.2);
+    padding:15px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    position:relative;
 }
 
-.myButtons{
-    display:flex;
+.buttons2{
+    font-family: Helvetica;
+    color:#1a1e22;
+    font-size: 25px;
+    padding: 5px;
+    display:inline-block;
     justify-content:space-around;
-    align-items:center;
+    margin-left:50px;
+    margin-top:25px;
 }
 
-.myButtons a{
+.buttons2 a {
     color: white; 
-    font-size:25px;
-    font-family:Arial, Helvetica, sans-serif;
     text-decoration: none;
     padding: 5px; 
 }
-.myButtons a:hover{
-    color:red;
+
+.buttons2 a:hover {
+    color: #88bdbc; 
 }
 
 .navbar-logo img {
@@ -111,4 +125,23 @@ display: flex;
 #photomainpage {
     display: flex;
     justify-content: space-between;
+}
+
+
+.control-button{
+    display:inline;
+    position:fixed;
+    justify-content:space-around;
+    flex-direction:row;
+    background-color:#112D32;
+    border:none;
+    color:white;
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius:100px;
+    padding:5px;
+    box-shadow: 8px 8px 2px 0.5px rgba(0, 0, 0, 0.2);
+}
+.control-button:hover{
+    color:#88bdbc;
 }
