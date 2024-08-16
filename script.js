@@ -47,7 +47,7 @@
         }
     }
 
-var button = document.getElementById("navigateButton");
+var button = document.getElementById("arjun-gallery");
 function goLink(){
     window.location.href = "https://docs.google.com/presentation/d/1kghlaqtHvn7N_Mt9oSPfPA9EVnQBwwfBWmH6LglNYLM/copy";
 }
