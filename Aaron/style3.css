@@ -156,7 +156,6 @@ body {
     background-color: rgb(136, 125, 104);
     text-align: center;
     justify-content: flex-start;
-    margin-bottom: 40px;
 }
 
 #descritipndiv {
@@ -164,3 +163,66 @@ body {
     
     
     }
+
+    .HobbyImages {
+        width: 200px;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-left: 100px;
+    }
+    
+    .HobbyImages2{
+        width: 300px;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-left: 300px;
+    }
+    .HobbyImages3 {
+        width: 300px;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-left: 100px;
+    }
+   .Himages{
+   
+    border-radius: 5px;
+    margin-left: 40px;
+   }
+
+/* Added in by Saajid for play music button*/
+.control-button{
+    display:flex;
+    position: absolute; 
+    right: 10px;
+    top: 10px; 
+    justify-content:space-around;
+    flex-direction:row;
+    background-color:#112D32;
+    border:none;
+    color:white;
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius:100px;
+    padding:5px;
+    box-shadow: 8px 8px 2px 0.5px rgba(0, 0, 0, 0.2);
+}
+.control-button:hover{
+    color:#88bdbc;
+}
+.AchPic{
+    
+    border-radius: 5px;
+    margin-left: 40px; 
+}
+.AchPic1{
+    width: 400px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom:80px;
+}
+.AchPic2{
+    width: 250px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom:80px;
+}
