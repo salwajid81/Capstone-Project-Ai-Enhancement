@@ -4,9 +4,9 @@ function togglePlayPause() {
   
     if (audio.paused) {
         audio.play();
-        button.textContent = 'Pause'; 
+        button.textContent = 'Pause Music'; 
     } else {
         audio.pause();
-        button.textContent = 'Play';
+        button.textContent = 'Play Music';
     }
   }

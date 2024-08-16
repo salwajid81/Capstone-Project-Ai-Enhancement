@@ -5,17 +5,17 @@ body{
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.logo {
-    margin-left: 8.5px;
+.logo{
+    margin-left:8.5px;
     border: 2px dotted #112D32;
-    border-radius: 10px;
+    border-radius:10px;
     width: 60px;
     height: 60px;
-    background-color: #4F4A41;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    background-color:#4F4A41;
+    position:relative;
+    bottom:50px;
 }
+
 .navBar{
     margin-left:15px;
     background-color: #112D32;
@@ -23,8 +23,10 @@ body{
     flex-direction:row;
     justify-content:center;
     align-items:center;
+    position:relative;
     width:50px;
     height:500px;
+    bottom:50px;
     border-radius:50px;
     box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -48,28 +50,26 @@ body{
     
 }
 .buttons a:hover{
-    color:red;
+    color:#88bdbc;
 }
 
 .Title {
-
 text-align: center;
-
 justify-content: center;
-
 }
-
 .description {
     text-align: center;
     padding: 20px;
     font-size: 18px;
-    border: solid #112D32 10px;
-    border-radius: 20px;
+    border: solid 10px black;
+    border-radius:100px;
     color: white;
     display: flex;
     align-content: center;
     margin: 0 200px;
+    
 }
+
 .logo2{
     width:100px;
     height:100px;
@@ -112,7 +112,7 @@ justify-content: center;
 }
 
 .navbar-logo img {
-    height: 50px; /* Adjust the height as needed */
+    height: 50px; 
 }
 
 
@@ -129,8 +129,10 @@ display: flex;
 
 
 .control-button{
-    display:inline;
-    position:fixed;
+    display:flex;
+    position: absolute; 
+    right: 10px; 
+    top: 10px; 
     justify-content:space-around;
     flex-direction:row;
     background-color:#112D32;
@@ -143,5 +145,5 @@ display: flex;
     box-shadow: 8px 8px 2px 0.5px rgba(0, 0, 0, 0.2);
 }
 .control-button:hover{
-    color:#88bdbc;
+    color:#88b
 }
