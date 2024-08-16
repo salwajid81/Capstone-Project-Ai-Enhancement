@@ -73,10 +73,22 @@ body{
     box-sizing: border-box;
 }
 
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%); /* Start from below the viewport */
+        opacity: 0; /* Start with invisible */
+    }
+    100% {
+        transform: translateY(0); /* End at the original position */
+        opacity: 1; /* End with fully visible */
+    }
+}
+
 .images{
     display:flex;
     flex-direction:row;
     justify-content:space-around;
+    animation: slideInFromBottom 1s ease-out;
 }
 .ach{
     width:40%;

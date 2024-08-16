@@ -86,11 +86,23 @@ body {
     justify-content: flex-start;
 }
 
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%); /* Start from below the viewport */
+        opacity: 0; /* Start with invisible */
+    }
+    100% {
+        transform: translateY(0); /* End at the original position */
+        opacity: 1; /* End with fully visible */
+    }
+}
+
 .images {
     display: flex;
     flex-direction: row;
     margin-left: 50px;
     margin-right: 100px;
+    animation: slideInFromBottom 1s ease-out;
 }
 
 .me {
@@ -169,6 +181,7 @@ body {
         box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 5px;
         margin-left: 100px;
+        animation: slideInFromBottom 1s ease-out;
     }
     
     .HobbyImages2{
@@ -176,17 +189,20 @@ body {
         box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 5px;
         margin-left: 300px;
+        animation: slideInFromBottom 1s ease-out;
     }
     .HobbyImages3 {
         width: 300px;
         box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 5px;
         margin-left: 100px;
+        animation: slideInFromBottom 1s ease-out;
     }
    .Himages{
    
     border-radius: 5px;
     margin-left: 40px;
+    
    }
 
 /* Added in by Saajid for play music button*/
@@ -210,9 +226,9 @@ body {
     color:#88bdbc;
 }
 .AchPic{
-    
     border-radius: 5px;
     margin-left: 40px; 
+    animation: slideInFromBottom 1s ease-out;   
 }
 .AchPic1{
     width: 400px;
